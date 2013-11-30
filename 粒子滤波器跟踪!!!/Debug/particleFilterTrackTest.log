@@ -1,0 +1,101 @@
+﻿生成启动时间为 2013-1-4 10:43:48。
+     1>项目“D:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\particleFilterTrackTest.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“.\Debug\particleFilterTrackTest.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“.\Debug\particleFilterTrackTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\GnuWin32\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt observation.c particles.c track1.c utils.c
+         utils.c
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\utils.c(59): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\utils.c(66): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\utils.c(67): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\utils.c(83): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\utils.c(83): warning C4024: “sprintf”: 形参和实参 2 的类型不同
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\utils.c(83): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\utils.c(103): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\utils.c(110): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+         track1.c
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\track1.c(88): warning C4013: “time”未定义；假设外部返回 int
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\track1.c(143): warning C4090: “函数”: 不同的“const”限定符
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\track1.c(143): warning C4028: 形参 1 与声明不同
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\track1.c(143): warning C4090: “函数”: 不同的“const”限定符
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\track1.c(143): warning C4028: 形参 2 与声明不同
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\track1.c(82): warning C4101: “y”: 未引用的局部变量
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\track1.c(82): warning C4101: “x”: 未引用的局部变量
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\track1.c(82): warning C4101: “k”: 未引用的局部变量
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\track1.c(74): warning C4101: “hsv_ref_imgs”: 未引用的局部变量
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\track1.c(438): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\track1.c(438): warning C4024: “sprintf”: 形参和实参 2 的类型不同
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\track1.c(438): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\track1.c(439): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\track1.c(440): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\track1.c(441): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\track1.c(433): warning C4101: “file”: 未引用的局部变量
+         particles.c
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\particles.c(45): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\particles.c(46): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\particles.c(65): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\particles.c(66): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\particles.c(100): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\particles.c(101): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\particles.c(103): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\particles.c(104): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\particles.c(106): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\particles.c(107): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\particles.c(157): warning C4090: “函数”: 不同的“const”限定符
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\particles.c(157): warning C4028: 形参 1 与声明不同
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\particles.c(157): warning C4090: “函数”: 不同的“const”限定符
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\particles.c(157): warning C4028: 形参 2 与声明不同
+         observation.c
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\observation.c(129): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\observation.c(162): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\observation.c(163): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\observation.c(202): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\observation.c(224): warning C4101: “l2”: 未引用的局部变量
+     1>d:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\observation.c(263): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\particleFilterTrackTest.exe.embed.manifest.res" .\Debug\particleFilterTrackTest_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/particleFilterTrackTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\GnuWin32\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib D:\openCv2.3.1\opencv\build\x86\vc10\lib\opencv_highgui231d.lib opencv_calib3d231d.lib opencv_contrib231d.lib opencv_core231d.lib opencv_features2d231d.lib opencv_flann231d.lib opencv_gpu231d.lib opencv_highgui231d.lib opencv_imgproc231d.lib opencv_legacy231d.lib opencv_ml231d.lib opencv_objdetect231d.lib opencv_ts231d.lib opencv_video231d.lib D:\openCv2.3.1\gsl\GnuWin32\lib\libgsl.a kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\particleFilterTrackTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/particleFilterTrackTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\particleFilterTrackTest.lib" /MACHINE:X86 .\Debug\particleFilterTrackTest.exe.embed.manifest.res
+         .\Debug/observation.obj
+         .\Debug/particles.obj
+         .\Debug/track1.obj
+         .\Debug/utils.obj
+     1>libgsl.a(rng_default.o) : warning LNK4217: 本地定义的符号 __iob 在函数 _gsl_rng_env_setup 中导入
+     1>libgsl.a(err_error.o) : warning LNK4217: 本地定义的符号 __iob 在函数 _gsl_error 中导入
+     1>libgsl.a(err_stream.o) : warning LNK4049: 已导入本地定义的符号 __iob
+       Manifest:
+         正在删除文件“.\Debug\particleFilterTrackTest.exe.embed.manifest”。
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\particleFilterTrackTest.exe.embed.manifest" /manifest .\Debug\particleFilterTrackTest.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\particleFilterTrackTest.exe.embed.manifest.res" .\Debug\particleFilterTrackTest_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/particleFilterTrackTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\GnuWin32\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib D:\openCv2.3.1\opencv\build\x86\vc10\lib\opencv_highgui231d.lib opencv_calib3d231d.lib opencv_contrib231d.lib opencv_core231d.lib opencv_features2d231d.lib opencv_flann231d.lib opencv_gpu231d.lib opencv_highgui231d.lib opencv_imgproc231d.lib opencv_legacy231d.lib opencv_ml231d.lib opencv_objdetect231d.lib opencv_ts231d.lib opencv_video231d.lib D:\openCv2.3.1\gsl\GnuWin32\lib\libgsl.a kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\particleFilterTrackTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/particleFilterTrackTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\particleFilterTrackTest.lib" /MACHINE:X86 .\Debug\particleFilterTrackTest.exe.embed.manifest.res
+         .\Debug/observation.obj
+         .\Debug/particles.obj
+         .\Debug/track1.obj
+         .\Debug/utils.obj
+     1>libgsl.a(rng_default.o) : warning LNK4217: 本地定义的符号 __iob 在函数 _gsl_rng_env_setup 中导入
+     1>libgsl.a(err_error.o) : warning LNK4217: 本地定义的符号 __iob 在函数 _gsl_error 中导入
+     1>libgsl.a(err_stream.o) : warning LNK4049: 已导入本地定义的符号 __iob
+         particleFilterTrackTest.vcxproj -> D:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\.\Debug\particleFilterTrackTest.exe
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\particleFilterTrackTest.unsuccessfulbuild”。
+         正在对“.\Debug\particleFilterTrackTest.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\vs程序\vs2010\第10章\particle跟踪\粒子滤波器跟踪\particleFilterTrackTest.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.21

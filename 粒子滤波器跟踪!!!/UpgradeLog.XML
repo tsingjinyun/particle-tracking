@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="particleFilterTrackTest">
+</Property><Property Name="解决方案文件" Value="D:\vs程序\vs2010\第十章\粒子滤波器跟踪\particleFilterTrackTest.sln">
+</Property><Property Name="Date" Value="2012年10月9日">
+</Property><Property Name="Time" Value="11:17">
+</Property></Properties><Event ErrorLevel="0" Project="particleFilterTrackTest" Source="particleFilterTrackTest.vcproj" Description="Converting project file 'D:\vs程序\vs2010\第十章\粒子滤波器跟踪\particleFilterTrackTest.vcproj'.">
+</Event><Event ErrorLevel="1" Project="particleFilterTrackTest" Source="particleFilterTrackTest.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="particleFilterTrackTest" Source="particleFilterTrackTest.vcproj" Description="MSB8012: $(TargetPath) ('D:\vs程序\vs2010\第十章\粒子滤波器跟踪\.\Debug\particleFilterTrackTest.exe') does not match the Linker's OutputFile property value '.\Debug/particleFilterTrackTest.exe' ('D:\vs程序\vs2010\第十章\粒子滤波器跟踪\Debug/particleFilterTrackTest.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="particleFilterTrackTest" Source="particleFilterTrackTest.vcproj" Description="MSB8012: $(TargetPath) ('D:\vs程序\vs2010\第十章\粒子滤波器跟踪\.\Release\particleFilterTrackTest.exe') does not match the Linker's OutputFile property value '.\Release/particleFilterTrackTest.exe' ('D:\vs程序\vs2010\第十章\粒子滤波器跟踪\Release/particleFilterTrackTest.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="particleFilterTrackTest" Source="particleFilterTrackTest.vcproj" Description="Done converting to new project file 'D:\vs程序\vs2010\第十章\粒子滤波器跟踪\particleFilterTrackTest.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="particleFilterTrackTest" Source="particleFilterTrackTest.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="particleFilterTrackTest.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="particleFilterTrackTest.sln" Description="Converted">
+</Event></UpgradeLog>
